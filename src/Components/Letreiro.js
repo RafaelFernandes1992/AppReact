@@ -14,7 +14,7 @@ function Letreiro() {
                 indice = 0;
             }
 
-        }, 300);
+        }, 400);
 
 
         return () => {
