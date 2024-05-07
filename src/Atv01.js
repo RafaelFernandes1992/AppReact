@@ -1,6 +1,5 @@
 import Relogio from './Components/Relogio';
-import Hora from './Components/Relogio';
-//import Gallery from './Components/Gallery';
+import Letreiro from './Components/Letreiro';
 import { Link } from 'react-router-dom';
 
 export default function Atv01() {
@@ -11,9 +10,17 @@ export default function Atv01() {
             <p>
                 <Relogio />
             </p>
-            
+
+
+            <p>
+                <Letreiro />
+            </p>
+
+                        
             <br />
             <Link to="/">Retornar à página inicial</Link>
+
+            <p> <b>Aluno: </b>Rafael Fernandes de Melo Lopes</p>
         </>
     );
 }
