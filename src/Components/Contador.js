@@ -30,7 +30,7 @@ function Contador() {
                     </div>
                     <div class="col-2">
                         <a href="#" onClick={zerar}>
-                            <img src="arrow-clockwise.svg" class="img-fluid" width="50" />
+                            <img src="atualizar.svg" class="img-fluid" width="50" />
                         </a>
                     </div>
                 </div>
