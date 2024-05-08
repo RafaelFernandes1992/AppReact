@@ -5,7 +5,7 @@ const Home = () =>{
     return(
         <div>
             <h1>Página Inicial</h1>
-            <p>Aluno: Rafael Fernandes de Melo Lopes</p>
+            <p><b>Aluno:</b> Rafael Fernandes de Melo Lopes</p>
             <nav>
                 <ul>
                     <li>
@@ -13,6 +13,9 @@ const Home = () =>{
                     </li>
                     <li>
                         <Link to="/Atv02">Atividade 2</Link>
+                    </li>
+                    <li>
+                        <Link to="/Atv03">Atividade 3</Link>
                     </li>
                 </ul>
             </nav>
