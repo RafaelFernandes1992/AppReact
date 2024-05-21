@@ -4,6 +4,9 @@ import Gallery from './Components/Gallery';
 import Avatar from './Components/Avatar';
 import TodoList from './Components/TodoList';
 import List from "./Components/List";
+import PackingList from "./Components/PackingList";
+import Recipe from "./Components/Recipe";
+import TeaGathering from "./Components/TeaGathering";
 
 
 
@@ -18,6 +21,9 @@ export default function Atv03() {
                 <Avatar />
                 <TodoList />
                 <List />
+                <PackingList />
+                <Recipe />
+                <TeaGathering />
             </p>
             <br />
             <Link to="/">Retornar à página inicial</Link>
