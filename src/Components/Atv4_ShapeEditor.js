@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 let initialShapes = [
-    { id: 0, type: 'circle', x:50, y: 100},
-    { id: 1, type: 'square', x:150, y: 100},
-    { id: 2, type: 'circle', x:250, y: 100},
+    { id: 0, type: 'circle', x:50, y: 45},
+    { id: 1, type: 'square', x:150, y: 30},
+    { id: 2, type: 'circle', x:250, y: 15},
 ];
  
 export default function ShapeEditor() {
@@ -20,7 +20,7 @@ export default function ShapeEditor() {
                 //retorna um novo circulo 50px
                 return{
                     ...shape, 
-                    y: shape.y + 50,
+                    y: shape.y + 150,
                 }
             };
         });
@@ -40,16 +40,17 @@ export default function ShapeEditor() {
                     key={shape.id}
                     style={{
                         background: 'purple',
-                        position: 'absolute',
+                        //position: 'absolute',
+                        position: 'relative',
                         left: shape.x,
                         top: shape.y,
                         borderRadius: 
-                           shape.type === 'circle' 
-                              ? '50%' : '',
+                        shape.type === 'circle' ? '50%' : '',
                         width: 15,
                         height: 15,  
                     }} />
             ))}
+            <br />
         </div>
     );
 }
